@@ -12,7 +12,7 @@
 
 set -e
 
-read -p "Enter the URL from email: " PRESIGNED_URL
+read -p "Enter the URL from email: https://llama3-1.llamameta.net/*?Policy=eyJTdGF0ZW1lbnQiOlt7InVuaXF1ZV9oYXNoIjoibG9paXF0cnN2MWR1MmMzcTExaHVkbDMxIiwiUmVzb3VyY2UiOiJodHRwczpcL1wvbGxhbWEzLTEubGxhbWFtZXRhLm5ldFwvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcyMTgzMzYwM319fV19&Signature=tF1LIyLznt1n6kedC5TpQ2G6H8bkkRvOxNd9S37tNuDT7zQEcVz3g57L%7ENabhL8LaetlUUrZss9mNEyKUOSULTZfbs%7E2OUTNLbmWi7cT6Kwyc3od3%7EOl0iqfgqdvVDvpTTI3V0DQCD0MdEYO1iYZHWQamYC4ouXQI4mwYj1UQBt1hL8JLh-FPTJE4WkVsHfVoCRrSuusDSU8XSrLM4p5DOXnvUHe2ODz4qRjRYILjr8NEkZronaOoTyRzxeHOmlm5DYsutshv9fasUW4ECJB%7EupsIQrPnX0al8n5bVqSTUKA0dv2%7EY9aFLGw8vMBZvyXlKOsEAXV0V%7EM93OhyhYBKw__&Key-Pair-Id=K15QRJLYKIFSLZ&Download-Request-ID=760459556043625 " PRESIGNED_URL
 ALL_MODELS_LIST="meta-llama-3.1-405b,meta-llama-3.1-70b,meta-llama-3.1-8b,meta-llama-guard-3-8b,prompt-guard"
 printf "\n **** Model list ***\n"
 for MODEL in ${ALL_MODELS_LIST//,/ }
